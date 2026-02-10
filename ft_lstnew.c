@@ -11,14 +11,3 @@ t_list *ft_lstnew(void *content)
     node->next = NULL;
     return (node);
 }
-
-int main()
-{
-    t_list  *node;
-    char    *str;
-
-    str = "hello world";
-    node = ft_lstnew(str);
-
-    printf("%s", (char *) node->next);
-}

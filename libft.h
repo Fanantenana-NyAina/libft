@@ -4,7 +4,6 @@
 #include <stddef.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include <stdio.h>
 
 int	ft_isalpha(int c);
 int	ft_isdigit(int c);
@@ -56,4 +55,5 @@ typedef struct s_list
 } t_list;
 
 t_list *ft_lstnew(void *content);
+void ft_lstadd_front(t_list **lst, t_list *new);
 #endif
