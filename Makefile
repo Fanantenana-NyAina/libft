@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2026/02/10 16:05:37 by fananrak          #+#    #+#              #
+#    Updated: 2026/02/10 16:10:57 by fananrak         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 NAME = libft.a
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
@@ -9,7 +21,7 @@ SRC = ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c ft_isalpha.c ft_isascii.c \
       ft_strlcat.c ft_strlcpy.c ft_strlen.c ft_strmapi.c ft_strncmp.c ft_strnstr.c \
       ft_strrchr.c ft_strtrim.c ft_substr.c ft_toupper.c ft_tolower.c ft_lstnew.c \
       ft_lstadd_front.c ft_lstsize.c ft_lstlast.c ft_lstadd_back.c ft_lstdelone.c \
-      ft_lstiter.c ft_lstmap.c
+      ft_lstiter.c ft_lstmap.c ft_lstclear.c
 
 OBJ = $(SRC:.c=.o)
 

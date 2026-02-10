@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fanantenana <fanantenana@student.42.fr>    +#+  +:+       +#+        */
+/*   By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/01/22 10:39:13 by fanantenana       #+#    #+#             */
-/*   Updated: 2026/02/08 08:24:26 by fanantenana      ###   ########.fr       */
+/*   Created: 2026/02/10 15:15:15 by fananrak          #+#    #+#             */
+/*   Updated: 2026/02/10 15:16:17 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 		return (dest);
 	dp = (char *)dest;
 	sp = (const char *)src;
-
 	if (sp < dp && sp + n > dp)
 		while (n--)
 			*(dp + n) = *(sp + n);

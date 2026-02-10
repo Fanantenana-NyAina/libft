@@ -1,11 +1,23 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/02/10 15:17:35 by fananrak          #+#    #+#             */
+/*   Updated: 2026/02/10 15:17:57 by fananrak         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
-void    ft_putendl_fd(char *s, int fd)
+void	ft_putendl_fd(char *s, int fd)
 {
-    while (*s)
-    {
-        write(fd, s, 1);
-        s++;
-    }
-    write(fd, "\n", 1);
+	while (*s)
+	{
+		write (fd, s, 1);
+		s++;
+	}
+	write (fd, "\n", 1);
 }

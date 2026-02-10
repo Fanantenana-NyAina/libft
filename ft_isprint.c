@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fanantenana <fanantenana@student.42.fr>    +#+  +:+       +#+        */
+/*   By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/21 12:25:37 by fananrak          #+#    #+#             */
-/*   Updated: 2026/02/08 06:05:58 by fanantenana      ###   ########.fr       */
+/*   Updated: 2026/02/10 15:15:34 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

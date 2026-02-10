@@ -1,6 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/02/10 15:16:54 by fananrak          #+#    #+#             */
+/*   Updated: 2026/02/10 15:17:26 by fananrak         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
-void    ft_putchar_fd(char c, int fd)
+void	ft_putchar_fd(char c, int fd)
 {
-    write(fd, &c, 1);
+	write (fd, &c, 1);
 }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fanantenana <fanantenana@student.42.fr>    +#+  +:+       +#+        */
+/*   By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/02/08 06:19:37 by fanantenana       #+#    #+#             */
-/*   Updated: 2026/02/08 06:20:23 by fanantenana      ###   ########.fr       */
+/*   Created: 2026/02/10 15:34:04 by fananrak          #+#    #+#             */
+/*   Updated: 2026/02/10 15:34:20 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

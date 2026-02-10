@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fanantenana <fanantenana@student.42.fr>    +#+  +:+       +#+        */
+/*   By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/21 12:15:55 by fananrak          #+#    #+#             */
-/*   Updated: 2026/02/08 06:05:42 by fanantenana      ###   ########.fr       */
+/*   Updated: 2026/02/10 15:15:37 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

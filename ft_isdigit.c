@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fanantenana <fanantenana@student.42.fr>    +#+  +:+       +#+        */
+/*   By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/21 12:10:12 by fananrak          #+#    #+#             */
-/*   Updated: 2026/02/08 06:05:21 by fanantenana      ###   ########.fr       */
+/*   Updated: 2026/02/10 15:15:31 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

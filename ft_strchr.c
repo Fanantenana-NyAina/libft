@@ -3,31 +3,31 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fanantenana <fanantenana@student.42.fr>    +#+  +:+       +#+        */
+/*   By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/02/08 06:28:45 by fanantenana       #+#    #+#             */
-/*   Updated: 2026/02/08 06:34:48 by fanantenana      ###   ########.fr       */
+/*   Created: 2026/02/10 15:26:39 by fananrak          #+#    #+#             */
+/*   Updated: 2026/02/10 15:28:06 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char    *ft_strchr(const char *s, int c)
+char	*ft_strchr(const char *s, int c)
 {
-    char ch;
+	char	ch;
 
-    ch = (char)c;
-    if (ch == '\0')
-    {
-        while (*s)
-            s++;
-        return ((char *)s);
-    }
-    while (*s)
-    {
-        if (*s == ch)
-            return ((char *)s);
-        s++;
-    }
-    return (0);
+	ch = (char)c;
+	if (ch == '\0')
+	{
+		while (*s)
+			s++;
+		return ((char *)s);
+	}
+	while (*s)
+	{
+		if (*s == ch)
+			return ((char *)s);
+		s++;
+	}
+	return (0);
 }

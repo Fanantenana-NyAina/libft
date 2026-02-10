@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fanantenana <fanantenana@student.42.fr>    +#+  +:+       +#+        */
+/*   By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/21 12:03:19 by fananrak          #+#    #+#             */
-/*   Updated: 2026/02/08 08:21:53 by fanantenana      ###   ########.fr       */
+/*   Updated: 2026/02/10 15:15:38 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
