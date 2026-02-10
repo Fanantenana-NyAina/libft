@@ -34,13 +34,13 @@ make re
 
 ### Usage
 
-Include the header in your C files:
+Include the header in the C files:
 
 ```c
 #include "libft.h"
 ```
 
-Compile your program with:
+Compile the program with:
 
 ```bash
 cc -Wall -Wextra -Werror main.c libft.a
