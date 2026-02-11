@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+        */
+/*   By: fananrak <fananrak@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/10 15:20:59 by fananrak          #+#    #+#             */
-/*   Updated: 2026/02/11 13:56:44 by fananrak         ###   ########.fr       */
+/*   Updated: 2026/02/11 14:34:36 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ char	**ft_split(char const *s, char c)
 	int		j;
 	int		word_start;
 
-	if (!s || !c)
+	if (!s)
 		return (NULL);
 	res = ft_calloc(count_word(s, c) + 1, sizeof(char *));
 	if (!res)
@@ -85,4 +85,13 @@ char	**ft_split(char const *s, char c)
 		j++;
 	}
 	return (res);
+}
+
+#include <stdio.h>
+
+int main()
+{
+	char *ch ="hello 42"; 
+	ft_split(ch, '\0');
+	printf("%s", ch);
 }
