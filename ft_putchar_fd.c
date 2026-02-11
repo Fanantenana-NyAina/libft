@@ -6,7 +6,7 @@
 /*   By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/10 15:16:54 by fananrak          #+#    #+#             */
-/*   Updated: 2026/02/10 15:17:26 by fananrak         ###   ########.fr       */
+/*   Updated: 2026/02/11 13:44:41 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,7 @@
 
 void	ft_putchar_fd(char c, int fd)
 {
+	if (!c || fd < 0)
+		return (NULL);
 	write (fd, &c, 1);
 }

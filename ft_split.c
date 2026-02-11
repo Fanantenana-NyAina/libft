@@ -6,7 +6,7 @@
 /*   By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/10 15:20:59 by fananrak          #+#    #+#             */
-/*   Updated: 2026/02/10 15:26:14 by fananrak         ###   ########.fr       */
+/*   Updated: 2026/02/11 13:56:44 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ char	**ft_split(char const *s, char c)
 	int		j;
 	int		word_start;
 
-	if (!s)
+	if (!s || !c)
 		return (NULL);
 	res = ft_calloc(count_word(s, c) + 1, sizeof(char *));
 	if (!res)

@@ -6,7 +6,7 @@
 /*   By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/10 15:06:43 by fananrak          #+#    #+#             */
-/*   Updated: 2026/02/10 15:07:46 by fananrak         ###   ########.fr       */
+/*   Updated: 2026/02/11 13:51:37 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ t_list	*ft_lstnew(void *content)
 {
 	t_list	*node;
 
+	if (!content)
+		return (NULL);	
 	node = malloc(sizeof(t_list));
 	if (!node)
 		return (0);
