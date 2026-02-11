@@ -6,7 +6,7 @@
 /*   By: fananrak <fananrak@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/10 15:20:59 by fananrak          #+#    #+#             */
-/*   Updated: 2026/02/11 14:34:36 by fananrak         ###   ########.fr       */
+/*   Updated: 2026/02/11 14:48:15 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,11 +87,11 @@ char	**ft_split(char const *s, char c)
 	return (res);
 }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main()
-{
-	char *ch ="hello 42"; 
-	ft_split(ch, '\0');
-	printf("%s", ch);
-}
+// int main()
+// {
+// 	char *ch ="hello 42"; 
+// 	ft_split(ch, '\0');
+// 	printf("%s", ch);
+// }
