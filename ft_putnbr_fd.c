@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+        */
+/*   By: fananrak <fananrak@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/10 15:18:28 by fananrak          #+#    #+#             */
-/*   Updated: 2026/02/11 13:44:29 by fananrak         ###   ########.fr       */
+/*   Updated: 2026/02/12 13:49:46 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_putnbr_fd(int n, int fd)
 	char	res;
 	long	nb;
 
-	if (!n || fd < 0)
+	if (fd < 0)
 		return ;
 	nb = n;
 	if (nb < 0)
