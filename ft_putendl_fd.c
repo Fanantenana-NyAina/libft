@@ -6,7 +6,7 @@
 /*   By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/10 15:17:35 by fananrak          #+#    #+#             */
-/*   Updated: 2026/02/10 15:17:57 by fananrak         ###   ########.fr       */
+/*   Updated: 2026/02/11 13:45:21 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 void	ft_putendl_fd(char *s, int fd)
 {
+	if (!s || fd < 0)
+		return ;
 	while (*s)
 	{
 		write (fd, s, 1);

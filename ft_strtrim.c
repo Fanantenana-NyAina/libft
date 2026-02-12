@@ -6,7 +6,7 @@
 /*   By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/10 15:38:22 by fananrak          #+#    #+#             */
-/*   Updated: 2026/02/10 15:43:56 by fananrak         ###   ########.fr       */
+/*   Updated: 2026/02/11 13:50:12 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,8 @@ char	*ft_strtrim(char const *s1, char const *set)
 	size_t	end;
 	size_t	j;
 
+	if (!s1 || !set)
+		return (NULL);
 	start = 0;
 	while (s1[start] && is_in_set(s1[start], set))
 		start++;

@@ -6,7 +6,7 @@
 /*   By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/10 15:18:28 by fananrak          #+#    #+#             */
-/*   Updated: 2026/02/10 15:20:08 by fananrak         ###   ########.fr       */
+/*   Updated: 2026/02/11 13:44:29 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ void	ft_putnbr_fd(int n, int fd)
 	char	res;
 	long	nb;
 
+	if (!n || fd < 0)
+		return ;
 	nb = n;
 	if (nb < 0)
 	{

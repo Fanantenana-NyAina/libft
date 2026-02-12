@@ -6,7 +6,7 @@
 #    By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/02/10 16:05:37 by fananrak          #+#    #+#              #
-#    Updated: 2026/02/10 16:10:57 by fananrak         ###   ########.fr        #
+#    Updated: 2026/02/11 14:01:47 by fananrak         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -40,3 +40,5 @@ fclean: clean
 	rm -f $(NAME)
 
 re: fclean all
+
+.PHONY: all clean fclean re

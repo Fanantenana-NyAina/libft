@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fanantenana <fanantenana@student.42.fr>    +#+  +:+       +#+        */
+/*   By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/10 14:55:36 by fananrak          #+#    #+#             */
-/*   Updated: 2026/02/10 20:53:09 by fanantenana      ###   ########.fr       */
+/*   Updated: 2026/02/11 08:14:52 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fananrak <fananrak@student.42antananari    +#+  +:+       +#+        */
+/*   By: fananrak <fananrak@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/10 15:06:43 by fananrak          #+#    #+#             */
-/*   Updated: 2026/02/10 15:07:46 by fananrak         ###   ########.fr       */
+/*   Updated: 2026/02/11 14:10:27 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ t_list	*ft_lstnew(void *content)
 {
 	t_list	*node;
 
+	if (!content)
+		return (NULL);
 	node = malloc(sizeof(t_list));
 	if (!node)
 		return (0);
